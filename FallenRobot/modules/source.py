@@ -27,15 +27,16 @@ async def repo(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("•👑 ᴏᴡɴᴇʀ ʟᴇɢᴇɴᴅ 👑•", url="https://t.me/pythonxgamer"
-                    ),
                     InlineKeyboardButton(
-                        "•💚sᴜᴘᴘᴏʀᴛ💚•",
-                        url="https://t.me/zensupport"
+                        "•👑 ᴏᴡɴᴇʀ ʟᴇɢᴇɴᴅ 👑•", url="https://t.me/pythonxgamer"
                     ),
+                    InlineKeyboardButton("•💚sᴜᴘᴘᴏʀᴛ💚•", url="https://t.me/zensupport"),
                 ],
                 [
-                    InlineKeyboardButton("• ➕ ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ➕ •", url="https://t.me/ZenXrobot?startgroup=true"),     
+                    InlineKeyboardButton(
+                        "• ➕ ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ➕ •",
+                        url="https://t.me/ZenXrobot?startgroup=true",
+                    ),
                 ],
             ]
         ),
@@ -43,4 +44,3 @@ async def repo(client, message):
 
 
 __mod_name__ = "Rᴇᴩᴏ"
-

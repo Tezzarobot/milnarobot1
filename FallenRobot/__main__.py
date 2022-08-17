@@ -100,13 +100,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text=" ᴀʙᴏᴜᴛ ᴍᴇ​​ ", callback_data="fallen_"),
-      
-  
-    
- 
-        InlineKeyboardButton(
-            text=" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/{OWNER_USERNAME}"
-        ),
+        InlineKeyboardButton(text=" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/{OWNER_USERNAME}"),
     ],
 ]
 
@@ -219,7 +213,9 @@ def start(update: Update, context: CallbackContext):
         else:
             uptime = get_readable_time((time.time() - StartTime))
             update.effective_message.reply_text(
-                PM_START_TEXT.format(dispatcher.bot.first_name, sql.num_users(), sql.num_chats(), uptime),
+                PM_START_TEXT.format(
+                    dispatcher.bot.first_name, sql.num_users(), sql.num_chats(), uptime
+                ),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
@@ -388,10 +384,6 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(
                             text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"
                         ),
-                       
-                       
-                        
-                   
                     ],
                     [
                         InlineKeyboardButton(text="◁", callback_data="fallen_back"),
@@ -431,7 +423,9 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
     elif query.data == "fallen_back":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
-            PM_START_TEXT.format(dispatcher.bot.first_name, sql.num_users(), sql.num_chats(), uptime),
+            PM_START_TEXT.format(
+                dispatcher.bot.first_name, sql.num_users(), sql.num_chats(), uptime
+            ),
             reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN,
             timeout=60,
@@ -454,7 +448,9 @@ def Source_about_callback(update: Update, context: CallbackContext):
     elif query.data == "source_back":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
-            PM_START_TEXT.format(dispatcher.bot.first_name, sql.num_users(), sql.num_chats(), uptime),
+            PM_START_TEXT.format(
+                dispatcher.bot.first_name, sql.num_users(), sql.num_chats(), uptime
+            ),
             reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN,
             timeout=60,
@@ -815,4 +811,3 @@ if __name__ == "__main__":
     telethn.start(bot_token=TOKEN)
     pbot.start()
     main()
- 

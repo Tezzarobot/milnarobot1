@@ -165,4 +165,3 @@ __handlers__ = [
     (NO_AFK_HANDLER, AFK_GROUP),
     (AFK_REPLY_HANDLER, AFK_REPLY_GROUP),
 ]
- 
