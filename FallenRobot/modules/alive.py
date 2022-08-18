@@ -8,27 +8,27 @@ from platform import python_version as pyver
 from FallenRobot import BOT_USERNAME, OWNER_USERNAME, SUPPORT_CHAT, pbot
 
 PHOTO = [
-    "https://telegra.ph/file/47f1c6b57321808e9eb61.jpg",
-    "https://telegra.ph/file/d2433e011fb8eff1650f8.mp4",
-    "https://telegra.ph/file/4af05a90d3058915d20e6.jpg",
-    "https://telegra.ph/file/a0a79755bc3336f47a30b.jpg",
-    "https://telegra.ph/file/c35acfb3cd4699c7a9e2c.jpg",
+    "https://telegra.ph/file/d57fc4c6128e919a0729e.jpg",
+    "https://telegra.ph/file/961e1390a72f9f72c18d0.jpg",
+    "https://telegra.ph/file/0ec44fbff2cc2d8e2a638.jpg",
+    "https://telegra.ph/file/6ab9f1f4a1d970481b4d7.jpg",
+    "https://telegra.ph/file/a24f1a71689d80ab9740c.jpg",
 ]
 
 SHREYXD = [
     [
-        InlineKeyboardButton(text="ʟᴇɢᴇɴᴅ", url=f"https://t.me/pythonxgamer"),
+        InlineKeyboardButton(text="ʟᴇɢᴇɴᴅ", url=f"https://t.me/Althaf_ser"),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ",
-            url=f"https://t.me/zenxroBot?startgroup=true",
+            url=f"https://t.me/milnarobot?startgroup=true",
         ),
     ],
 ]
 
-lol = "https://telegra.ph/file/90552395a5e96d0e7fab9.jpg"
+lol = "https://telegra.ph/file/edd75f024d6ee921c9c46.jpg"
 
 
 @pbot.on_message(filters.command("alive"))
@@ -52,7 +52,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(2)
     await m.reply_photo(
         lol,
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『𝙕𝙀𝙉 ✘ 𝙍𝙊𝘽𝙊𝙏』**
+        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『𝙈𝙄𝙇𝙉𝘼 ✘ 𝙍𝙊𝘽𝙊𝙏』**
    ━━━━━━━━━━━━━━━━━━━
   » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴀᴅɪᴛʏᴀ](https://t.me/{OWNER_USERNAME})
   
