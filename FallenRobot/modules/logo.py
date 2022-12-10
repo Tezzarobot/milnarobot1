@@ -288,7 +288,7 @@ async def lego(event):
         fname = "fallen.png"
         img.save(fname, "png")
         await telethn.send_file(
-            event.chat_id, file=fname, caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪʟɴᴀ ✘ ʀᴏʙᴏᴛ\nRequested By:- [{event.sender.first_name}](tg://user?id={event.sender.id})\nCreated By: [『 𝙈𝙄𝙇𝙉𝘼 ✘ 𝙍𝙊𝘽𝙊𝙏 』](https://t.me/milnarobot)"
+            event.chat_id, file=fname, caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴍɪʟɴᴀ ✘ ʀᴏʙᴏᴛ\nRequested By:- [{event.sender.first_name}](tg://user?id={event.sender.id})\nCreated By: [『 𝙏𝙀𝙕𝙕𝘼 ✘ 𝙍𝙊𝘽𝙊𝙏 』](https://t.me/tezza_robot)"
         )
         await pesan.delete()
         if os.path.exists(fname):
@@ -300,7 +300,7 @@ async def lego(event):
 __mod_name__ = "Lᴏɢᴏ​"
 
 __help__ = """
-Zen Robot can create some beautiful and attractive logo for your profile pics.
+Tezza Robot can create some beautiful and attractive logo for your profile pics.
 
 ❍ /logo (Text) *:* Create a logo of your given text with random view.
 """
