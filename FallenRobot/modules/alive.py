@@ -23,7 +23,7 @@ SHREYXD = [
     [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ",
-            url=f"https://t.me/milnarobot?startgroup=true",
+            url=f"https://t.me/tezza_robot?startgroup=true",
         ),
     ],
 ]
@@ -52,7 +52,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(2)
     await m.reply_photo(
         lol,
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『𝙈𝙄𝙇𝙉𝘼 ✘ 𝙍𝙊𝘽𝙊𝙏』**
+        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『𝙏𝙀𝙕𝙕𝘼 ✘ 𝙍𝙊𝘽𝙊𝙏』**
    ━━━━━━━━━━━━━━━━━━━
   » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴀᴅɪᴛʏᴀ](https://t.me/{OWNER_USERNAME})
   
