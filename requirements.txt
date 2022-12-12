@@ -60,4 +60,3 @@ python-arq
 telegram
 gpytranslate
 yt_dlp
-FallenRobot.config
